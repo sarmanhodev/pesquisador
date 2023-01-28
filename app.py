@@ -1,7 +1,7 @@
 import requests
 from flask import*
 
-api_key="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"
+api_key="SUA CHAVE DE ACESSO AQUI"
 endpoint="https://api.openai.com/v1/completions"
 
 
