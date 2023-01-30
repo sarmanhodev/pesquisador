@@ -8,7 +8,7 @@ endpoint="https://api.openai.com/v1/completions"
 
 app = Flask(__name__,template_folder="template")
 
-@app.route("/home", methods=['GET', 'POST'])
+@app.route("/", methods=['GET', 'POST'])
 def pesquisa():
 
     if request.method =='POST':
